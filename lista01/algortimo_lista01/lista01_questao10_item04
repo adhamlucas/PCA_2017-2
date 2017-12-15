@@ -1,0 +1,18 @@
+Inicio
+
+  number: inteiro
+  limite: inteiro
+  resto: inteior
+  quociente: inteiro
+  multiplo: inteiro
+
+  leia(limite)
+  leia(number)
+  
+  quociente = (limite / number)
+  resto = limite % number
+  multiplo = limite - resto
+
+  escreva "O maior multiplo de number <= limite é: multiplo"
+
+Fim algoritmo

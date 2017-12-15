@@ -1,0 +1,26 @@
+Inicio
+
+  num1: Inteiro
+  den1: Inteiro
+  num2: Inteiro
+  den2: Inteiro
+  numerador: Inteiro
+  denominador: Inteiro
+
+  Escreva "Digite o numerador1"
+  Leia(num1)
+  Escreva "Digite o denominador1"
+  Leia(den1)
+  Escreva "Digite o numerador2"
+  Leia(num2)
+  Escreva "Digite o denominador2"
+  Leia(den2)
+
+  numerador = (num1 * den2) + (num2 * den1)
+  denominador = (den1 * den2)
+
+  Escreva numerador
+  Escreva "---"
+  Escreva denominador
+
+Fim algoritmo

@@ -1,0 +1,18 @@
+Inicio
+
+  number: real
+  raiz: real
+  raiz1: inteiro
+
+  Escreva "Digite um número: "
+  Leia(number)
+
+  raiz = number ^ 0.5
+  raiz1 = number ^ 0.5
+
+  Se raiz == raiz1
+    Escreva "raiz"
+  Senão
+    Escreva "O número não é um quadrado perfeito"
+
+Fim Algoritmo

@@ -1,0 +1,11 @@
+Inicio
+  farh: Real
+  Celsius: Real
+
+  Escreva "Digite a temperatura em Farenheit"
+  leia(farh)
+
+  Celsius = (farh - 32) * 5 / 9
+
+  Escreva "A temperatura em celsius é: Celsius"
+Fim algoritmo

@@ -1,0 +1,33 @@
+Inicio questao40
+  number, count, p, k, i,verif: inteiro
+
+  Escreva "Digite um número: "
+  Leia (number)
+
+  verif = 0
+
+  Para p de 2 ate number faca
+    limite = p ^ 0.5
+    count = 0
+
+    Para i de 1 até limite faca
+      Se p % i == 0
+        count = count + 2
+      fimse
+    fimpara
+
+    Se count == 2
+      Para k de 1 ate number faca
+        Se (p ^ k == number)
+          Escreva "number é potencia prima"
+          verif = 1
+        fimse
+      fimpara
+    fimse
+  fimpara
+
+  Se verif == 0
+    Escreva "number não é uma potência prima"
+  fimse
+  
+fimalgoritmo

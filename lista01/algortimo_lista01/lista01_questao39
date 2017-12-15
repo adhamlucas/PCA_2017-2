@@ -1,0 +1,14 @@
+Inicio
+  number, i, j, m:inteiro
+
+  Escreva "Digite number"
+  Leia (number)
+
+  Para i de 1 até number
+    Para j de (i + 1) até number
+      Para m de (j + 1) até number
+        Escreva "{i, j, m}"
+      fimpara
+    fimpara
+  fimpara
+fimalgoritmo

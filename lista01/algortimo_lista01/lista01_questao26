@@ -1,0 +1,16 @@
+Inicio
+  n, quadrado, soma, i: inteiro
+
+  Escreva "Digite o valor de n:"
+  Leia (n)
+
+  soma = 0
+
+  Para i de 1 até n faça 1
+    quadrado = i * i
+    soma = soma + quadrado
+  fimpara
+  
+  Escreva "A soma dos quadrados dos n primeiros números: soma"
+
+Fim Algortimo

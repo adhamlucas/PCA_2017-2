@@ -1,0 +1,16 @@
+Inicio
+  minutos, segundos, total_seconds, rest: real
+  horas, minutos2: inteiro
+
+
+  Escreva "Digite os minutos"
+  Leia (minutos)
+
+  total_seconds = minutos * 60
+  horas = total_seconds / 3600
+  minutos2 = ((total_seconds / 3600) - horas) * 60
+  segundos = (total_seconds - horas) * 3600 - (minutos * 60)
+
+  Escreva "horas - minutos2 - segundos"
+
+fimalgoritmo

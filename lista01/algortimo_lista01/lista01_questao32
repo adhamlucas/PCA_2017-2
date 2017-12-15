@@ -1,0 +1,22 @@
+Inicio
+  number, algarismos: inteiro
+
+  Escreva "Digite um número: "
+  Leia (number)
+
+  algarismos = 1
+
+  Se (number / 10 == 0)
+    algarismos = 1
+  fimse
+
+  Senao
+    Enquanto (number / 10 =/= 0) faca
+      number = number / 10
+      algarismos = algarismos + 1
+    fimenquanto
+  fimsenao
+
+  Escreva "Algarismos de number: algarismos"
+
+fimalgoritmo

@@ -1,0 +1,30 @@
+Inicio
+  valor, real_100, real_ 50, real_20, real_10: inteiro
+  real_5, real_2, real_1: inteiro
+
+  Escreva "Digite o valor"
+  leia (valor)
+
+  real_100 = valor / 100
+  valor = valor - (real_100 * 100)
+  real_50 = valor / 50
+  valor = valor - (real_50 * 50)
+  real_20 = valor / 20
+  valor = valor - (real_20 * 20)
+  real_10 = valor / 10
+  valor = valor - (real_10 * 10)
+  real_5 = valor / 5
+  valor = valor - (real_5 * 5)
+  real_2 = valor / 2
+  valor = valor - (real_2 * 2)
+  real_1 = valor
+
+  Escreva "real_100 notas(s) de R$ 100,00"
+  Escreva "real_50 notas(s) de R$ 50,00"
+  Escreva "real_20 notas(s) de R$ 20,00"
+  Escreva "real_10 notas(s) de R$ 10,00"
+  Escreva "real_5 notas(s) de R$ 5,00"
+  Escreva "real_2 notas(s) de R$ 2,00"
+  Escreva "real_1 notas(s) de R$ 1,00"
+
+Fim Algoritmo

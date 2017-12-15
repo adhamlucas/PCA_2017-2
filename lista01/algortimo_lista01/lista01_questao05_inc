@@ -1,0 +1,55 @@
+Inicio
+  anos: Inteiro
+  mes: Inteiro
+  dias: Inteiro
+  caso: Inteiro
+  bisexto: inteiro
+
+  Escreva "Digite o dia"
+  leia(dias)
+  Escreva "Digite o mês"
+  Leia(mes)
+  Escreva "Digite o ano"
+  Leia(anos)
+
+  bisexto = (anos - 1900) / 4
+  anos = (anos - 1900)  * 365
+  mes = (mes - 1) * 30
+
+  Se mes == 1 e bisexto =/= 0
+    dias = dias + mes + anos + (bisexto - 1)
+  fimse
+
+  Senão
+    dias = dias + mes + anos + bisexto
+  fimsenao
+  caso = dias % 7
+  Se caso == 0
+    Escreva "O dia é um domingo"
+    Fim algoritmo
+  fimse
+  Se caso == 1
+    Escreva "O dia é uma segunda-feira"
+    Fimalgoritmo
+  fimse
+  Se caso == 2
+    Escreva "O dia é uma terça-feira"
+    Fim algoritmo
+  fimse
+  Se caso == 3
+    Escreva "O dia é uma quarta-feira"
+    Fim algoritmo
+  fimse
+  Se caso == 4
+    Escreva "O dia é uma quinta-feira"
+    Fim algoritmo
+  fimse
+  Se caso == 5
+    Escreva "O dia é uma sexta-feira"
+    Fim algoritmo
+  fimse
+  Se caso == 6
+    Escreva "O dia é um sábado"
+    Fim algoritmo
+  fimse
+Fim algoritmo

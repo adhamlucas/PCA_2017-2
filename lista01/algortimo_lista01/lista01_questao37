@@ -1,0 +1,18 @@
+Incio
+  n0, fracao: inteiro
+  K,S: real
+
+  Escreva "Digite o valor de K"
+  Leia (K)
+
+  S = 0
+  n0 = 0
+
+  Enquanto S <= K faca
+    n0 = n0 + 1
+    S = S + (1.0 / n0)
+  fimenquanto
+
+  Escreva "n0"
+
+fimalgoritmo

@@ -1,0 +1,13 @@
+Inicio
+
+  a, b, c, result: inteiro
+
+  a = 3;
+  b = -9;
+  c = 6;
+
+  result = ((-(b) + (((b * b) - 4*a*c)) ^ 0.5) / (2 * a))
+
+  Escreva "Resultado: result"
+
+fimalgoritmo

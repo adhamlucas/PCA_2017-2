@@ -1,0 +1,41 @@
+Inicio
+
+  lado1: real
+  lado2: real
+  lado3: real
+  hipotenusa: real
+
+  Escreva "Digite os lados do triângulo"
+
+  Leia (lado1)
+  Leia (lado2)
+  Leia (lado3)
+
+  hipotenusa = lado1
+
+  Se hipotenusa < lado2
+    hipotenusa = lado2
+  fimse
+  Se hipotenusa < lado3
+    hipotenusa = lado3
+  fimse
+
+  Se hipotenusa == lado1 e (hipotenusa ^ 2 == lado2 ^ 2 + lado3 ^ 2)
+    Escreva "Hipotenusa: hipotenusa"
+    Escreva "Cateto: lado2"
+    Escreva "Cateto: lado3"
+  fimse
+
+  Se hipotenusa == lado2 e (hipotenusa ^ 2 == lado1 ^ 2 + lado3 ^ 2)
+    Escreva "Hipotenusa: lado2"
+    Escreva "Cateto: lado1"
+    Escreva "Cateto: lado3"
+  fimse
+
+  Se hipotenusa == lado3 e (hipotenusa ^ 2 == lado1 ^ 2 + lado2 ^ 2)
+    Escreva "Hipotenusa: hipotenusa"
+    Escreva "Cateto: lado1"
+    Escreva "Cateto: lado2"
+  fimse
+
+Fim Algoritmo

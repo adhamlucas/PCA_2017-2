@@ -1,0 +1,24 @@
+Inicio
+  number1, number2, i ,j ,number3, number4, aux1,prod1, prod2, aux: inteiro
+
+
+  Para i de 11 até 99 faca
+    number1 = i
+    Para j de 11 até 99 faca
+      number2 = j
+
+      number3 = number1 % 10
+      aux = (number1 - number3) / 10
+      number3 = (number3 * 10) + aux
+      prod1 = number1 * number2
+
+      number4 = number2 % 10
+      aux = (number2 - number4 / 10)
+      number4 = (number4 * 10) + aux
+      prod2 = number3 * number4
+      Se (prod1 == prod2)
+        Escreva "number1 x number2"
+      fimse
+    fimpara
+  fimpara
+Fimalgoritmo

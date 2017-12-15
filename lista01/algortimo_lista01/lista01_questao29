@@ -1,0 +1,21 @@
+Inicio
+  numero_perfeito, i, j, n, soma: inteiro
+
+  Escreva "Digite o valor de n:"
+  Leia (n)
+
+  Para i de 1 até n faca 1
+    soma = 0
+
+    Para j de 1 até i faca 1
+      Se (i % j == 0)
+        soma = soma + j
+      fimse
+    fimpara
+
+    Se (i * 2 == soma)
+      Escreva "i"
+    fimse
+  fimpara
+  
+fimalgoritmo

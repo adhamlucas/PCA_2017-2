@@ -1,0 +1,20 @@
+Inicio
+
+n, soma, numerador, denominador, quociente, i: real
+  Escreva "Digite  valor de n:"
+  Leia (n)
+
+  soma = 0
+  numerador = -1
+  denominador = -1
+
+  Para i de 1 até n faça 1
+    numerador = numerador + 2
+    denominador = denominador + 3
+    quociente = numerador / denominador
+    soma = soma + quociente
+  fimpara
+
+  Escreva "A soma dos n primeiros termos: soma"
+
+Fimalgoritmo

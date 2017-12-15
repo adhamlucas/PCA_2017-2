@@ -1,0 +1,36 @@
+Inicio
+
+  number1: real
+  number2: real
+  number3: real
+  maior: real
+  menor: real
+
+  Escreva "Digite o número 1: "
+  Escreva "Digite o número 2: "
+  Escreva "Digite o número 3: "
+
+  Leia (number1)
+  Leia (number2)
+  Leia (number3)
+
+  maior = number1
+  Se maior < number2
+    maior = number2
+  fimse
+  Se maior < number3
+    maior = number3
+  fimse
+
+  menor = number1
+  Se menor < number2
+    menor = number2
+  fimse
+  Se menor < number3
+    menor = number3
+  fimse
+
+  Escreva "O maior número é: maior"
+  Escreva "O menor número é: menor"
+
+Fim Algoritmo

@@ -1,0 +1,26 @@
+Inicio
+  x, y , i, mmc, maior: inteiro
+
+  Escreva "Digite o valor de X:"
+  Leia (x)
+  Escreva "DIgite o valor de y:"
+  Leia (y)
+
+  Se x < y
+    maior = y
+    i = x
+  fimse
+  Senao
+    maior = x
+    i = y
+  fimsenao
+
+  mmc = maior
+
+  Enquanto mmc % i =/= 0
+    mmc = mmc + maior
+  fimenquanto
+
+  Escreva "O MMC de x e y é: mmc"
+
+fimalgoritmo

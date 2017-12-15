@@ -1,0 +1,22 @@
+Inicio
+  x, y z: inteiro
+
+  Escreva "Digite o valor de x"
+  Leia (x)
+
+  verif = 0
+
+  Para z de 2 até (x - 1) faca
+    Para y de 1 até x faca
+      Se z ^ y == x
+        Escreva "Potência perfeita x == z ^ y"
+        verif = 1
+      fimse
+    fimpara
+  fimpara
+
+  Se(verif == 0)
+    Escreva "x não é uma potência perfeita"
+  fimse
+
+fimalgoritmo

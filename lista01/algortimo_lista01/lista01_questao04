@@ -1,0 +1,20 @@
+Inicio
+  i: int
+  n: real
+  number: real
+  produto: real
+  raizn: real
+
+  Escreva "Digite o valor de n"
+  leia (n)
+  produto = 1
+
+  Para i de 1 até n faça 1
+    Escreva "Digite um número"
+    leia (number)
+    produto = produto * number
+
+  raiz = calcular_raiz_enesima(n, produto)
+
+  escreva "O resultado é: produto"
+Fima lgoritmo

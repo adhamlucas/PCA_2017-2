@@ -1,0 +1,14 @@
+Inicio
+  number, number1, number2, number3 last_number: inteiro
+
+  Escreva "Digite um número"
+  Leia (number)
+
+  number1 = number / 100
+  number2 = number - (number1 * 100)
+  number2 = number1 // 10
+  number3 = number - (number1 * 100) - (number2 * 10)
+  last_number = number + number2 * 10 + number3 * 100
+
+  Escreva "Número invertido: last_number"
+fimalgoritmo

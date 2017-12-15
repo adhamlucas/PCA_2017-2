@@ -1,0 +1,25 @@
+Inicio
+  var1, var2: inteiro
+
+  Escreva ("Digite a primeira variável")
+  leia (var1)
+  Escreva ("Digite a segunda variável")
+  leia (var2)
+
+
+
+  Se var1 > var2
+    var1 = var1 + var2
+    var2 = var1 - var2
+    var1 = var1 - var2
+    Escreva "var1"
+  fimse
+
+  Senao
+    var2 = var2 + var1
+    var1 = var2 - var1
+    var2 = var2 - var1
+    Escreva "var2"
+  fimse
+
+fimlgoritmo

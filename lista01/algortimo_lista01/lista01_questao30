@@ -1,0 +1,15 @@
+Inicio
+  number, part1, part2,soma, quadrado,  i: inteiro
+
+  i = 32
+  quadrado = i * i
+
+  Para i = 32 até 99 faca 1
+    quadrado = i * i
+    part1 = quadrado / 100
+    part2 = quadrado - (100 * part1)
+    soma = part1 + part2
+    Se (soma * soma) == quadrado
+      Escreva "quadrado"
+    fimse
+  fimpara

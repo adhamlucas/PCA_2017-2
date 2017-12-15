@@ -1,0 +1,24 @@
+Inicio
+  dia_nasc, mes_nasc, ano_nasc: inteiro
+  dia_atual, mes_atual, ano_atual: inteiro
+  ano, mes, dia: inteiro
+
+  Escreva "Digite o dia, o mes e o ano de nascimento"
+  Leia (dia_nasc)
+  Leia (mes_nasc)
+  Leia (ano_nasc)
+  Escreva "Digite o dia, o mês e o ano atual"
+  Leia (dia_atual)
+  Leia (mes_atual)
+  Leia (ano_atual)
+
+  Se dia_nasc == dia_atual e mes_nasc == mes_atual
+    ano = ano_atual - ano_nasc
+    dia = 0
+    mes = 0
+  fimse
+  Se mes_atual > mes_nasc
+    ano = ano_atual - ano_nasc
+    mes = mes_atual - mes_nasc
+    dia = 
+  fimse

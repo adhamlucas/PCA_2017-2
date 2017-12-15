@@ -1,0 +1,18 @@
+Inicio
+  fib, num1, num2, n, i:inteiro
+
+  Escreva "Digite n:"
+  Leia (n)
+
+  num1 = 0
+  num2 = 1
+
+  Para i de 1 até n faca 1
+    fib = num1 + num2
+    num1 = num2
+    num2 = fib
+  fimpara
+
+  Escreva  "O Fibbonaci na posição n é: num1"
+
+fimalgoritmo

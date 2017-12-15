@@ -1,0 +1,58 @@
+Inicio
+  dia, mes, ano, h: inteiro
+
+  Escreva "Digite o dia"
+  Leia(q)
+  Escreva "Digite o mês"
+  Leia(m)
+  Escreva "Digite o ano"
+  Leia(k)
+
+  Se mes == 2 ou mes == 1 faca
+    mes = mes + 12
+    ano = ano - 1
+  fimse
+
+  h = (dia + ((13 * (mes + 1)) / 5 ))
+  h = h + ano + (ano / 4) - (ano / 100) + (ano / 400)
+  h = h % 7
+
+  Se h == 0
+    Escreva "Sábado"
+  fimse
+  Senão
+    Se h == 1
+      Escreva "Domingo"
+    fimse
+  fimsenao
+  Senao
+    Se h == 2
+      Escreva "Segunda-feira"
+    fimse
+  fimsenao
+  Senao
+    Se h == 3
+      Escreva "Terça-feira"
+    fimse
+  fimsenao
+  Senao
+    Se h == 4
+      Escreva "Quarta-feira"
+    fimse
+  fimsenao
+  Senao
+    Se h == 5
+      Escreva "Quinta-feira"
+    fimse
+  fimsenao
+  Senao
+    Se h == 6
+      Escreva "Sexta-feira"
+    fimse
+  fimsenao
+
+  Senao
+    Escreva "Erro"
+  fimsenao
+
+fimalgoritmo

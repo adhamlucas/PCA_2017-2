@@ -1,0 +1,21 @@
+Inicio
+  nota1, nota2: real
+  nota_necessaria, pf, soma: real
+
+  Escreva "Digite a primeira nota"
+  Leia (nota1)
+  Escreva "Digite a segunda nota"
+  Leia (nota2)
+
+  soma = nota1 + nota2
+
+  Se soma >= 8
+    Escreva "Você ja conseguiu a nota necessária"
+  fimse
+  
+  Senão
+    nota_necessaria = 18 - soma;
+    Escreva "Anota necessaria para ser aprovado é: nota_necessria"
+  fimsenao
+
+Fim Algoritmo

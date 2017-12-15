@@ -1,0 +1,15 @@
+Inicio
+  produt_price: real
+  parcela: inteiro
+  entrada: real
+
+  escrava "Digite o valor do produto: "
+  leia produt_price
+
+  parcela = produt_price / 3
+  entrada = (produt_price / 3) + 2 * ((produt_price / 3) - parcela);
+
+  escreva "O valor da entrada é: entrada"
+  escreva "O valor das duas parcelas: parcela"
+
+Fim Algoritmo

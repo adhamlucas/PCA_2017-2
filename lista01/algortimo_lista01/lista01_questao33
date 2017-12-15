@@ -1,0 +1,39 @@
+Inicio
+  number, part1, part2, i, j, k,l count1, count2: inteiro
+  verif: inteiro
+
+  Escreva "Digite um número: "
+  Leia (number)
+
+  Para i de 2 até number faca 1
+    count1 = 0
+    Para j de 1 até i faca 1
+      Se(i % j== 0)
+        count1 += 1
+      fimse
+    fimpara
+
+    Se (count1 == 2)
+      Para k de 2 até number faca 1
+        count2 = 0
+        Para l de 1 até k faca 1
+          Se(k % l == 0 )
+            count2 = count2 + 1
+          fimse
+        fimpara
+
+        Se count2 == 2
+          Se (i * k == number)
+            Escreva "number é semiprimo"
+            verif = 1
+          fimse
+        fimse
+      fimpara
+    fimse
+  fimpara
+
+  Se verif == 0
+    Escreva "number não é semi-primo"
+  fimse
+  
+fimalgoritmo

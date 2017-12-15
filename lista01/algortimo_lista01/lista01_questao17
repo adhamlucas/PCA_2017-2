@@ -1,0 +1,17 @@
+Inicio
+  number, parte_fracao: real
+  next_number: inteiro
+
+  Escreva "Digite o número: "
+  Leia (number)
+
+  next_number = number
+  parte_fracao = number - next_number
+
+  Se(parte_fracao >= 0.5)
+    parte_fracao = 1
+    next_number = next_number + parte_fracao
+  fimse
+
+  Escreva "next_number"
+fimalgoritmo

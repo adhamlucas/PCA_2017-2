@@ -1,0 +1,47 @@
+inicio
+  number, limite1, limite2, quociente1, quociente2:inteiro
+  divisor1, divisor2soma1, soma2, i, j, m ,n : inteiro
+
+  Escreva "Digite number"
+  Leia (number)
+
+  Para i de 1 até (number - 1)
+    soma1 = 1
+    limite1 = i ^ 0.5
+    divisor = i
+
+    Para m de 1 até limite
+      Se i % m == 0
+        quociente1 = i / m
+        Se quociente =/= m
+          soma1 = soma1 + m + quociente
+        fimse
+        Senao
+          soma1 = soma1 + m
+        fimsenao
+      fimse
+    fimpara
+
+    soma1 -= i
+    limite2 = soma1 ^ 0.5
+    soma2 = 0
+
+    Para 1 de 2 até limite
+      Se soma1 % n == 0
+        quociente2 = j / n
+        Se quociente2 =/= n
+          soma2 = soma 2+ n + quociente
+        fimse
+        Senao
+          soma2 = soma2 + n
+        fimsenao
+      fimse
+    fimpara
+
+    soma2 = soma2 - soma1
+
+    Se i == soma2 e i =/= soma1
+      Escreva "i e soma1"
+    fimse
+  fimpara
+fimalgoritmo

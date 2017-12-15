@@ -1,0 +1,17 @@
+Inicio
+  divisor: Inteiro
+  dividendo: Inteiro
+  quociente: Inteiro
+  resto: Inteiro
+
+  Escreva "Digite o divivendo"
+  Leia(dividendo)
+  Escreva "Digite o divisor"
+  leia(divisor)
+
+  quociente = dividendo / divisor
+
+  resto = dividendo - (divisor * quociente)
+
+  Escreva ("O resto é: ", resto)
+Fim algoritmo

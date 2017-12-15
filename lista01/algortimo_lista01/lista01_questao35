@@ -1,0 +1,79 @@
+Inicio
+  votos_83, votos_93, brancos, nulos, voto, eleicao, confirmacao: inteiro
+
+  eleicao = 0
+  nulos = 0
+  votos_83 = 0
+  votos_93 = 0
+  brancos = 0
+
+  Enquanto (eleicao == 0) faca
+    votacao = 1
+    confirmacao = 1
+
+    Enquanto (confirmacao == 1)
+      Escreva "Digite o voto para presidente: "
+      Escreva "00 - Branco"
+      Leia (voto)
+
+      Se (voto =/= 0 e voto =/= 93 e voto =/= 83)
+        Escreva "Voto nulo"
+        Escreva "Confirmar voto: sim-1 nao-0"
+        leia (confirmacao)
+        Se (confirmacao == 1)
+          Escreva "Voto confirmado"
+          nulos = nulos + 1
+        fimse
+      fimse
+
+      Se (voto == 0)
+        Escreva "Voto em branco"
+        Escreva "Confirmar voto: sim-1 nao-0"
+        leia (confirmacao)
+        Se (confirmacao == 1)
+          Escreva "Voto confirmado"
+          brancos = brancos + 1
+        fimse
+      fimse
+
+      Se (voto == 93)
+        Escreva "Voto em 93-Alacapone"
+        Escreva "Confirmar voto: sim-1 nao-0"
+        leia (confirmacao)
+        Se (confirmacao == 1)
+          Escreva "Voto confirmado"
+          votos_93 = votos_93 + 1
+        fimse
+      fimse
+
+      Se (voto == 83)
+        Escreva "Voto em 83-Alibabá"
+        Escreva "Confirmar voto: sim-1 nao-0"
+        leia(confirmacao)
+        Se (confirmarcao == 1)
+          Escreva "Voto confirmado"
+          votos_83 = votos_83 + 1
+        fimse
+      fimse
+
+      Se confirmacao == 1
+        Escreva "Encerrar eleicao: sim - 1, não - 0 "
+        leia (eleicao)
+        Se eleicao == 1
+          Escreva "83-Alibabá: votos_83"
+          Escreva "93-Alcapone: votos_93"
+          Escreva "00-Branco: brancos"
+          Escreva "Nulos: nulos"
+          Se votos_83 > votos_93
+            Escreva "Aliabá Eleito"
+          fimse
+          Senao
+            Escreva "Alcapone eleito"
+          fimsenao
+        fimse
+      fimse
+    fimenquanto
+  fimenquanto
+
+
+fimalgoritmo

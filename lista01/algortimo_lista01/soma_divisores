@@ -1,0 +1,14 @@
+Inicio soma_de_divisores
+  number, soma, limite, divisor, quociente, i: inteiro
+
+  Escreva "Digite nubmer"
+  Leia (number)
+
+  limite = number ^ 0.5
+  div = number
+  soma = 0
+
+  para i de 1 ate limite
+    Se divisor % i == 0
+      quociente = divisor / i
+      soma = i + quociente
